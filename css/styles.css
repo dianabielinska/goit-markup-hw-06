@@ -70,6 +70,8 @@ button {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    padding-left: 120px;
+    padding-right: 120px;
   }
 }
 
@@ -975,7 +977,6 @@ button {
   .footer .container {
     flex-direction: row;
     gap: 72px 24px;
-    justify-content: center;
   }
 
   .footer-overlay-one {
@@ -986,8 +987,6 @@ button {
   }
   .ftr-input-email {
     width: 264px;
-  }
-  .footer-overlay-three {
   }
 }
 
