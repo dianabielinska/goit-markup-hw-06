@@ -908,7 +908,7 @@ button {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+  gap: 24px;
 }
 
 .ftr-input-email {
@@ -988,5 +988,25 @@ button {
     width: 264px;
   }
   .footer-overlay-three {
+  }
+}
+
+/* footer-desktop */
+@media screen and (min-width: 1158px) {
+  .footer {
+    padding: 100px 0;
+  }
+  .footer .container {
+    align-items: baseline;
+    gap: 0;
+  }
+  .footer-overlay-one {
+    margin-right: 120px;
+  }
+  .footer-overlay-three {
+    margin-left: auto;
+  }
+  .ftr-input-email {
+    opacity: 1;
   }
 }
